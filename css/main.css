@@ -95,8 +95,17 @@ textarea {
    header {
     display: flex;
     justify-content: center;
+    padding: 15px 0;
    }
    
+   header nav{
+      width: 60%;
+   }
+    
+   .header-divider{
+    width: 90%;
+   }
+    
    footer {
     display: flex;
     flex-direction: column;
@@ -109,21 +118,33 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
    }
 
    header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 55%;
+   }
+   footer .content-wrapper{
+    width: 55%;
+    margin: 50px 0;
    }
 
    footer .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
    }
 
    footer .social p{
     display: flex;
     justify-content: center;
+    align-items: center;
+   }
+
+   footer p {
+    margin: 0;
    }
 
    .hero-area {
@@ -143,18 +164,32 @@ textarea {
     align-items: center;
    }
 
+   .features article {
+    width: 60%;
+   }
 
    .features .features-items {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;   
-    text-align: center;
+    align-items: flex-start;   
+  }
+
+  .features p {
+    margin: 0;
   }
 
    .reviews {
     display: flex;
     justify-content: center;
+   }
+
+   .reviews h3 {
+    width: 55%;
+   }
+
+   .contact-content p {
+    margin: 0;
    }
   /*-----------About Page---------*/
    .mission {
@@ -174,7 +209,9 @@ textarea {
 
    .faq .content-wrapper {
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
+    align-items: flex-start;
    }
 
 
