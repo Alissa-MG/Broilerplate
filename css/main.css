@@ -331,17 +331,36 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+  @media only screen and (min-width: 768px) {
+    /*tablet styles here*/
+    .content-wrapper {
+      width: 640px;
+    }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+    header .content-wrapper {
+      padding: 33px 0;
+    }
 
+    .header-divider { 
+      width: 49%;
+    }
+
+    header nav {
+      width: 22%;
+    }
+
+    .hero-area .content-wrapper {
+      margin: 100px 0;
+    }
+
+   .hero-area h1 {
+     width: 81%;
+     margin: 0;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    /*desktop styles here*/
+  }
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
