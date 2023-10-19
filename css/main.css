@@ -406,13 +406,13 @@ textarea {
 
     footer .content-wrapper {
      width: 65%;
-     margin: 100px 0;
 }
 
     .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
 }
 
     footer .contact {
