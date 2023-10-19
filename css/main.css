@@ -158,7 +158,7 @@ textarea {
     justify-content: center;
    }
 
-   .aside {
+    aside {
     display: flex;
     justify-content: center;
    }
@@ -334,19 +334,34 @@ textarea {
   @media only screen and (min-width: 768px) {
     /*tablet styles here*/
     .content-wrapper {
-      width: 640px;
+      max-width: 640px;
+      margin: 100px 0;
     }
-
-    header .content-wrapper {
+    
+    /*--Header--*/
+    header {
       padding: 33px 0;
     }
 
+    header .content-wrapper {
+      width: 100%;
+      padding: 33px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
     .header-divider { 
-      width: 49%;
+      display: none;
     }
 
     header nav {
-      width: 22%;
+      width: 20%;
+    }
+
+    header nav ul {
+      width: ; 
+      display: flex;
+      justify-content: space-between;
     }
 
     .hero-area .content-wrapper {
@@ -357,6 +372,60 @@ textarea {
      width: 81%;
      margin: 0;
   }
+    aside .content-wrapper {
+     margin: 50px 0;
+     display: flex;
+     justify-content: space-between;
+     align-content: flex-start;
+   }
+
+    aside .content-wrapper .form-descripton,
+    aside .content-wrapper .form {
+     width: 40%;
+     margin: 0;
+   }
+
+    .features article {
+     display: flex;
+     align-items: center;
+     flex-flow: column wrap-reverse;
+     flex-basis: 50%;
+   }
+
+    .features .features-item-description {
+     width: 50%;
+   }
+
+    .reviews article {
+     display: flex;
+     justify-content: space-between;
+  }
+    .reviews article div {
+     width: 49%;
+}
+
+    footer .content-wrapper {
+     width: 65%;
+     margin: 100px 0;
+}
+
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    footer .contact {
+     margin-bottom: 0;
+}
+
+    footer .copyright {
+     width: 100%;
+}
+
+    .faq-content {
+     flex-basis: ;
+    }
 
   @media only screen and (min-width: 1200px) {
     /*desktop styles here*/
