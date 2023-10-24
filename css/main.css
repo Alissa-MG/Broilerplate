@@ -359,7 +359,6 @@ textarea {
     }
 
     header nav ul {
-      width: ; 
       display: flex;
       justify-content: space-between;
     }
@@ -529,4 +528,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
