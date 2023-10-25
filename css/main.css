@@ -339,9 +339,6 @@ textarea {
     }
     
     /*--Header--*/
-    header {
-      padding: 33px 0;
-    }
 
     header .content-wrapper {
       width: 100%;
@@ -453,6 +450,46 @@ textarea {
 
   @media only screen and (min-width: 1200px) {
     /*desktop styles here*/
+    header {
+      padding: 15px 0;
+    }
+
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    .hero-area h1 {
+      width: 80%;
+    }
+
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-descripton,
+    aside .content-wrapper .form {
+     width: 30%;
+   }
+
+   .features h2 {
+     width: 90%;
+   }
+
+   .features article {
+    flex-basis: 33%;
+   }
+
+   .reviews article div {
+    width: 42%;
+   }
+
+   .mission h2, .contact-section .content-wrapper h2 {
+    width: 95%;
+   }
+
+   .faq h2 {
+    width: 100%;
+   }
   }
 /* ==========================================================================
    Print styles.
