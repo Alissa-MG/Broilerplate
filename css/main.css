@@ -86,10 +86,87 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.content-wrapper {
-  outline: 3px dotted purple;
-  width: 90%;
-  margin: 50px 0;
+/* General Styles */
+ 
+  html {
+	  font-size: 1rem;
+}
+ 
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+ 
+  ul, 
+  ol {
+ 
+}
+ 
+  a {
+	  color: #e2e3ed;
+    text-decoration: none;
+}
+ 
+  h1 {
+    font-size: 2.25em;
+    line-height: 43px;
+    font-weight: 500;
+}
+
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+ 
+  h3, 
+  h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+  p {
+	  font-size: 14px;
+    line-height: 18px;
+}
+
+  nav{
+  font-size: 18px;
+  font-weight: bold;
+}
+.fontawesome-icon {
+  width: 60px;
+}
+ 
+  img {
+ 
+}
+ 
+  figure {
+ 
+}
+ 
+  address {
+    font-style: normal;
+}
+ 
+  .content-wrapper {
+ 
+}
+
+  .reviews h2 {
+    line-height: 30px;
+}
+
+  .faq h2 {
+    line-height: 30px;
+}
+
+   .content-wrapper {
+    outline: 3px dotted purple;
+    width: 90%;
+    margin: 50px 0;
 }
    /*-------------Base Header - Footer Styles -----------------*/
 
@@ -333,6 +410,35 @@ textarea {
 
   @media only screen and (min-width: 768px) {
     /*tablet styles here*/
+    h1 {
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    h2 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .footer h4 {
+      font-size: 24px;
+    }
+
+    footer p {
+      line-height: 18px;
+    }
+
+    .faq h4 & .faq p {
+      font-size: 14px;
+      line-height: 15.75px;
+    }
+  
+  
     .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
@@ -458,6 +564,27 @@ textarea {
       max-width: 960px;
     }
 
+    h1 {
+      font-size: 60px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+    
+    h2 {
+      font-size: 36px;
+    }
+
+    h4 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
     .hero-area h1 {
       width: 80%;
     }
@@ -487,8 +614,27 @@ textarea {
     width: 95%;
    }
 
+   .mission h2 {
+    font-size: 48px;
+   }
+
+   .about h2 {
+    font-size: 48px;
+   }
+
    .faq h2 {
     width: 100%;
+    font-size: 48px;
+   }
+
+   .faq h4 {
+    font-size: 18px;
+    line-height: 18px;
+   }
+
+   .faq p {
+    font-size: 18px;
+    line-height: 18px;
    }
   }
 /* ==========================================================================
