@@ -299,16 +299,19 @@ textarea {
    .mission {
     display: flex;
     justify-content: center;
+    background: #527158;
    }
 
    .contact-section {
     display: flex;
     justify-content: center;
+    background: #2a423a;
    }
   /*------------Faq Page-----------*/
    .faq {
     display: flex;
     justify-content: center;
+    background: #527158;    
    }
 
    .faq h2 {
