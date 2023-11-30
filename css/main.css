@@ -90,6 +90,7 @@ textarea {
  
   html {
 	  font-size: 1rem;
+    color: #e2e3ed;
 }
  
   body {
@@ -148,6 +149,7 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    background-color: #202322;
    }
    
    header nav{
@@ -158,6 +160,7 @@ textarea {
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    background-color: #3a3a3a;
    }
     
    footer {
@@ -165,6 +168,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #202322;
    }
 
    header .content-wrapper {
@@ -208,12 +212,41 @@ textarea {
    .hero-area {
     display: flex;
     justify-content: center;
+
+    background: url('img/unplugged-desgin-docs/unplugged-retreat.jpg')
    }
 
     aside {
     display: flex;
     justify-content: center;
+    background-color: #527158;
    }
+
+   aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
    .features {
     display: flex;
@@ -247,6 +280,7 @@ textarea {
    .reviews {
     display: flex;
     justify-content: center;
+    background-color: #527158;
    }
 
    .reviews h2 {
@@ -267,16 +301,19 @@ textarea {
    .mission {
     display: flex;
     justify-content: center;
+    background-color: #527158;
    }
 
    .contact-section {
     display: flex;
     justify-content: center;
+    background-color: #2a423a;
    }
   /*------------Faq Page-----------*/
    .faq {
     display: flex;
     justify-content: center;
+    background-color: #527158;
    }
 
    .faq h2 {
