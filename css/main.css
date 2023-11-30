@@ -90,18 +90,20 @@ textarea {
  
   html {
 	  font-size: 1rem;
-    color: #e2e3ed;
 }
  
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    color: #e2e3ed;
 }
  
   ul, 
   ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
  
   a {
@@ -113,6 +115,7 @@ textarea {
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
+    font-weight: 500;
 }
  
   h3, 
@@ -120,6 +123,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
     margin: 20px 0;
+    font-weight: 500;
 }
  
   p {
@@ -133,10 +137,12 @@ textarea {
 
   .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
 }
 
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
 }
 
    .content-wrapper {
@@ -154,6 +160,9 @@ textarea {
    
    header nav{
       width: 60%;
+      font-size: 1.125em;
+      font-weight: 700;
+      text-transform: uppercase;
    }
     
    .header-divider{
@@ -212,8 +221,13 @@ textarea {
    .hero-area {
     display: flex;
     justify-content: center;
+   }
 
-    background: url('img/unplugged-desgin-docs/unplugged-retreat.jpg')
+   .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
    }
 
     aside {
@@ -275,6 +289,7 @@ textarea {
 
   .features p {
     margin: 0;
+    text-align: center;
   }
 
    .reviews {
@@ -285,11 +300,13 @@ textarea {
 
    .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
    }
    
 
    .reviews h3 {
     width: 55%;
+    margin: 20px 0;
    }
 
 
@@ -318,6 +335,7 @@ textarea {
 
    .faq h2 {
     margin: 40px;
+    line-height: 1;
    }
 
    .faq-content {
@@ -326,6 +344,11 @@ textarea {
 
    .features p {
     margin: 0;
+    text-align: center;
+   }
+
+   .faq-content h4 {
+    line-height: 1.333;
    }
 
    .faq .content-wrapper {
