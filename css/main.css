@@ -221,6 +221,11 @@ textarea {
    .hero-area {
     display: flex;
     justify-content: center;
+    background: url('../img/unplugged-retreat.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
    }
 
    .hero-area h1 {
