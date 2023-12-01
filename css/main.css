@@ -222,9 +222,9 @@ textarea {
     display: flex;
     justify-content: center;
     background: url('../img/unplugged-retreat.jpg'); 
+    background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: cover;
     width: 600px;
    }
 
