@@ -148,7 +148,17 @@ textarea {
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
-  }
+    }
+
+    img { 
+      width: 40%;
+    }
+     
+    figure {
+        margin: 0;
+    }
+    
+  
    /*-------------Base Header - Footer Styles -----------------*/
 
    header {
@@ -225,11 +235,11 @@ textarea {
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    width: 600px;
+    height: 600px;
    }
 
    .hero-area h1 {
-    font-size: 2.25em;
+    font-size: 3.65em;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
@@ -239,6 +249,10 @@ textarea {
     display: flex;
     justify-content: center;
     background-color: #527158;
+   }
+
+   aside p {
+    color: yellow;
    }
 
    aside .form {
@@ -270,6 +284,8 @@ textarea {
    .features {
     display: flex;
     justify-content: center;
+    background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
+    background-size: cover;
    }
 
    .features h2  {
@@ -300,7 +316,7 @@ textarea {
    .reviews {
     display: flex;
     justify-content: center;
-    background-color: #527158;
+    background-color: #2a423a;
    }
 
    .reviews h2 {
