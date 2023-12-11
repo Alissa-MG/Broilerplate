@@ -701,6 +701,16 @@ textarea {
     line-height: 18px;
    }
   }
+
+  @media only screen and (min-width: 320px) {
+    figure {
+      text-align: center;
+    }
+
+    img {
+      width: 70%;
+    }
+  }
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
