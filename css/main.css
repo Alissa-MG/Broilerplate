@@ -136,7 +136,7 @@ textarea {
 }
 
   .reviews h2 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     line-height: 1;
 }
 
@@ -545,7 +545,7 @@ textarea {
      align-content: flex-start;
    }
 
-    aside .content-wrapper .form-descripton,
+    aside .content-wrapper .form-description,
     aside .content-wrapper .form {
      width: 40%;
      margin: 0;
@@ -708,7 +708,11 @@ textarea {
     }
 
     img {
-      width: 70%;
+      width: 50%;
+    }
+
+    .reviews .picture-description {
+      width: 43%;
     }
   }
 /* ==========================================================================
