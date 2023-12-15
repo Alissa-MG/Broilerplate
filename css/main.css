@@ -151,11 +151,16 @@ textarea {
     }
 
     img { 
-      width: 40%;
+      width: 100%;
     }
      
     figure {
         margin: 0;
+        width: 25%;
+    }
+
+    .picture-description {
+      width: 25%;
     }
     
   
@@ -328,6 +333,11 @@ textarea {
    .reviews h3 {
     width: 55%;
     margin: 20px 0;
+   }
+
+   .reviews article {
+    display: flex;
+    justify-content: space-between;
    }
 
 
