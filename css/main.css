@@ -150,13 +150,13 @@ textarea {
     margin: 50px 0;
     }
 
-    img { 
-      width: 100%;
+    .reviews img { 
+      width: 90%;
     }
      
-    figure {
+    .reviews figure {
         margin: 0;
-        width: 25%;
+        width: 53%;
     }
 
     .picture-description {
@@ -684,6 +684,10 @@ textarea {
     width: 42%;
    }
 
+   img {
+    width: 100%;
+   }
+
    .mission h2, .contact-section .content-wrapper h2 {
     width: 95%;
    }
@@ -721,9 +725,8 @@ textarea {
       width: 50%;
     }
 
-    .reviews .picture-description {
-      width: 43%;
-    }
+
+
   }
 /* ==========================================================================
    Print styles.
