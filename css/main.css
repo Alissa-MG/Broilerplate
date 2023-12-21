@@ -110,7 +110,12 @@ textarea {
 	  color: #e2e3ed;
     text-decoration: none;
 }
- 
+
+  h1 {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 500;
+}
 
   h2 {
     font-family: 'Poppins', sans-serif;
@@ -128,7 +133,7 @@ textarea {
  
   p {
 	  font-size: .875em;
-    line-height: 1.285;
+    line-height: 1.285em;
 }
  
   address {
@@ -145,124 +150,124 @@ textarea {
     line-height: 1;
 }
 
-   .content-wrapper {
+  .content-wrapper {
     width: 90%;
     margin: 50px 0;
-    }
-
-    .reviews img { 
-      width: 90%;
-    }
-     
-    .reviews figure {
-        margin: 0;
-        width: 53%;
-    }
-
-    .picture-description {
-      width: 25%;
-    }
+}
     
-  
-   /*-------------Base Header - Footer Styles -----------------*/
-
-   header {
+/*-------------Base Header - Footer Styles -----------------*/
+  header {
     display: flex;
     justify-content: center;
     padding: 15px 0;
     background-color: #202322;
-   }
+}
+
+  header figure {
+    width: 60%;
+    margin: 0;
+    padding: 15px 0 10px 0;
+}
+
+  header img {
+    width: 100%;
+}
    
-   header nav{
-      width: 60%;
-      font-size: 1.125em;
-      font-weight: 700;
-      text-transform: uppercase;
-   }
+  header nav{
+    width: 60%;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0 15px;
+}
     
-   .header-divider{
+  .header-divider{
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
     background-color: #3a3a3a;
-   }
+}
     
-   footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #202322;
-   }
-
-   header .content-wrapper {
+  header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
-   }
+}
 
-   header nav ul {
+  header nav ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
-   }
+}
 
-   footer .content-wrapper{
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #202322;
+}
+
+  footer .content-wrapper{
     width: 55%;
-   }
+}
 
-   footer .social-icons {
+  footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   }
+    margin-bottom: 50px;
+}
 
-   footer .social-icons p{
+  footer .social-icons p{
     display: flex;
     justify-content: center;
     align-items: center;
-   }
+}
   
-   footer .contact {
+  footer .contact {
     margin-bottom: 50px;
-   }
+}
 
-   footer p {
+  footer p {
     margin: 0;
-   }
+} 
 
-   .hero-area {
+  footer .copyright {
+    margin: 20px 0;
+}
+  address {
+    font-style: normal;
+    margin-bottom: 50px;
+}
+/*--------Hero Area and Aside---------*/
+  .hero-area {
     display: flex;
     justify-content: center;
     background: url('../img/unplugged-retreat.jpg'); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    height: 600px;
-   }
+    height: 500px;
+    padding: 50px 0;
+}
 
-   .hero-area h1 {
-    font-size: 3.65em;
+  .hero-area h1 {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-   }
+    
+}
 
-    aside {
+  aside {
     display: flex;
     justify-content: center;
     background-color: #527158;
-   }
+}
 
-   aside p {
-    color: yellow;
-   }
-
-   aside .form {
+  aside .form {
     margin-top: 30px;
-  }
+}
    
   input[type=text] {
     box-sizing: border-box;
@@ -270,7 +275,8 @@ textarea {
     color: #2a423a;
     font-style: italic;
     padding: 1em;
-  }
+    margin-bottom: 20px;
+}
    
   input[type=button] {
     width: 100%;
@@ -284,111 +290,123 @@ textarea {
     border: none;
     text-align: center;
     text-transform: uppercase;
-  }
+}
 
-   .features {
+/*---------Features Area-----------*/
+  .features {
     display: flex;
     justify-content: center;
     background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
     background-size: cover;
-   }
+}
 
-   .features h2  {
+  .features h2  {
     margin-bottom: 60px;
-   }
+    width: 95%;
+}
 
-   .features article {
+  .features article {
     width: 62%;
     margin: 30px 0;
-   }
+}
 
-   .features .features-items {
+  .features .features-items {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;   
-  }
-
-  footer .copyright {
-    margin: 20px 0;
-  }
+}
 
   .features p {
     margin: 0;
     text-align: center;
+    padding: 30px 0;
   }
 
-   .reviews {
+  .features .fontawesome-icons {
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+  .features .social-icons {
+    font-size: 21px;
+}
+
+  .reviews {
     display: flex;
     justify-content: center;
     background-color: #2a423a;
-   }
+}
 
-   .reviews h2 {
-    margin-bottom: 40px;
-    line-height: 1;
-   }
-   
-
-   .reviews h3 {
-    width: 55%;
+  .reviews h2 {
     margin: 20px 0;
-   }
+    line-height: 30px;
+}
 
-   .reviews article {
+  .reviews h3 {
+    width: 55%;
+}
+
+  .reviews figure {
+    text-align: center;
+    margin: 0;
+}
+
+  .reviews img {
+    width: 100%;
+}
+
+  .reviews article {
     display: flex;
     justify-content: space-between;
-   }
+    flex-direction: column;
+}
 
 
-  /*-----------About Page---------*/
-   .contact-content p {
-    margin: 0;
-   }
+/*-----------About Page---------*/
   
-   .mission {
+.contact-content p {
+    margin: 0;
+}
+  
+  .mission {
     display: flex;
     justify-content: center;
     background-color: #527158;
-   }
+}
 
-   .contact-section {
+  .contact-section {
     display: flex;
     justify-content: center;
     background-color: #2a423a;
-   }
+}
   /*------------Faq Page-----------*/
-   .faq {
+  .faq {
     display: flex;
     justify-content: center;
     background-color: #527158;
-   }
+}
 
-   .faq h2 {
+  .faq h2 {
     margin: 40px;
-    line-height: 1;
-   }
+    line-height: 30px;
+}
 
-   .faq-content {
+  .faq-content {
     margin-bottom: 50px; 
-   }
+}
 
-   .features p {
-    margin: 0;
-    text-align: center;
-   }
+  .faq-content h4 {
+    line-height: 1.333em;
+}
 
-   .faq-content h4 {
-    line-height: 1.333;
-   }
-
-   .faq .content-wrapper {
+  .faq .content-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     align-items: flex-start;
     margin-top: 50px 0 0 0;
-   }
+}
 
 
 /* ==========================================================================
@@ -730,72 +748,6 @@ textarea {
     font-size: 18px;
     line-height: 18px;
    }
-  }
-
-  @media only screen and (min-width: 480px) {
-    h1 {
-      font-size: 36px;
-      line-height: 43px;
-      font-weight: 500;
-    }
-
-    h2 {
-      font-size: 48px;
-      font-weight: 500;
-    }
-
-    h3, h4 {
-      font-size: 18px;
-      font-weight: 500;
-    }
-
-    p {
-      font-size: 14px;
-      line-height: 18px;
-    }
-
-    nav {
-      font-size: 18px;
-      font-weight: bold;
-    }
-
-    input text {
-      font-size: 18px;
-      font-weight: 500;
-    }
-
-    .features .fontawesome-icons {
-      font-size: 60px;
-    }
-
-    .features .social-icons {
-      font-size: 21px;
-    }
-
-    address {
-      font-style: normal;
-    }
-    
-    .reviews h2 {
-      line-height: 30px;
-    }
-    
-    .reviews figure {
-      text-align: center;
-    }
-
-    .reviews img {
-      width: 50%;
-    }
-
-    .faq h2 {
-      line-height: 30px;
-    }
-
-    .faq-content h4 {
-      line-height: 24px;
-    }
-
   }
 /* ==========================================================================
    Print styles.
