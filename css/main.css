@@ -120,7 +120,6 @@ textarea {
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
-    font-weight: 500;
 }
  
   h3, 
@@ -138,11 +137,6 @@ textarea {
  
   address {
     font-style: normal;
-}
-
-  .reviews h2 {
-    margin-bottom: 50px;
-    line-height: 1;
 }
 
   .faq h2 {
@@ -320,7 +314,7 @@ textarea {
   .features p {
     margin: 0;
     text-align: center;
-    padding: 30px 0;
+    padding: 0 0 30px 0;
   }
 
   .features .fontawesome-icons {
@@ -499,137 +493,161 @@ textarea {
 
   @media only screen and (min-width: 768px) {
     /*tablet styles here*/
-    h1 {
-      font-size: 48px;
-      line-height: 48px;
-    }
-
-    h2 {
-      font-size: 36px;
-      line-height: 48px;
-    }
-
-    h3 {
-      font-size: 24px;
-      line-height: 30px;
-    }
-
-    .footer h4 {
-      font-size: 24px;
-    }
-
-    footer p {
-      line-height: 18px;
-    }
-
-    .faq h4, .faq p {
-      font-size: 14px;
-      line-height: 15.75px;
-    }
-  
-    .contact h4 {
-      font-size: 24px;
-    }
-  
     .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
+    }  
+
+    h1 {
+      font-size: 3em;
+      line-height: 3rem;
+    }
+
+    h2 {
+      font-size: 2.25em;
+      width: 83%;
+      font-weight: 500;
+
+    }
+
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.875rem;
+    }
+
+    .footer h4 {
+      font-size: 1.5em;
+    }
+
+    footer p {
+      line-height: 1.125em;
+    }
+
+    .faq h4, .faq p {
+      font-size: .875em;
+      line-height: .984em;
+    }
+  
+    .contact h4 {
+      font-size: 1.5em;
+    }
+
+    .social h4 {
+      font-size: 1.5em;
     }
   
     /*--Header--*/
 
     header .content-wrapper {
       width: 100%;
-      padding: 33px 0;
       display: flex;
       justify-content: space-between;
-    }
+  }
+
+    header {
+      padding: 33px 0;
+  }
 
     .header-divider { 
       display: none;
-    }
+  }
 
     header nav {
       width: 21%;
-    }
+  }
 
     header nav ul {
       display: flex;
       justify-content: space-between;
-    }
-
-    header figure {
-      width: 30%;
-      text-align: left;
-    }
-
-    header img {
-      width: 100%;
-    }
-
-    .hero-area .content-wrapper {
-      margin: 100px 0;
-      height: 600px;
-    }
-
-   .hero-area h1 {
-     margin: 0;
-     font-size: 48px;
-     line-height: 48px;
   }
-    aside .content-wrapper {
-     margin: 50px 0;
-     display: flex;
-     justify-content: space-between;
-     align-content: flex-start;
-   }
 
-    aside .content-wrapper .form-description,
-    aside .content-wrapper .form {
-     width: 40%;
-     margin: 0;
-   }
-
-    .features article {
-     display: flex;
-     align-items: center;
-     flex-flow: column wrap-reverse;
-     flex-basis: 50%;
-   }
-
-    .features .features-item-description {
-     width: 50%;
-   }
-
-    .reviews article {
-     display: flex;
-     justify-content: space-between;
-  }
-    .reviews article div {
-     width: 49%;
-}
-
-  figure {
+  header figure {
+    width: 30%;
     text-align: left;
-  }
-
-    footer .content-wrapper {
-     width: 65%;
 }
 
-    .footer-content {
+  header img {
+    width: 100%;
+}
+
+  .hero-area  {
+    height: 600px;
+}
+
+  .hero-area h1 {
+    margin: 0;
+}
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+}
+
+  input[type=button] {
+    margin-top: 0;
+}
+
+  .features article {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap-reverse;
+    flex-basis: 50%;
+}
+
+  .features h2 {
+    width: 98%;
+    padding-bottom: 20px;
+}
+
+  .features .features-item-description {
+    width: 50%;
+}
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+  .reviews figure {
+    text-align: left;
+}
+
+  .reviews img {
+    width: 100%;
+  }
+
+  footer .content-wrapper {
+    width: 65%;
+}
+
+  .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
 }
 
-    footer .contact {
-     margin-bottom: 0;
+  footer .contact{
+    margin: 0;
+    padding-bottom: 40px;
 }
 
-    footer .copyright {
-     width: 100%;
+  footer .social{
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+  footer .copyright {
+    width: 100%;
+    font-weight: 700;
 }
 /*--------About Page-------*/
     .mission-content {
