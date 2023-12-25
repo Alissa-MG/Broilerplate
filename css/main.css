@@ -132,7 +132,7 @@ textarea {
  
   p {
 	  font-size: .875em;
-    line-height: 1.285em;
+    line-height: 1.285;
 }
  
   address {
@@ -212,13 +212,16 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 50px;
 }
 
   footer .social-icons p{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #527158;
 }
   
   footer .contact {
@@ -234,7 +237,6 @@ textarea {
 }
   address {
     font-style: normal;
-    margin-bottom: 50px;
 }
 /*--------Hero Area and Aside---------*/
   .hero-area {
@@ -243,8 +245,7 @@ textarea {
     background: url('../img/unplugged-retreat.jpg'); 
     background-size: cover;
     background-position: center; 
-    background-repeat: no-repeat;
-    height: 500px;
+    min-height: 500px;
     padding: 50px 0;
 }
 
@@ -333,12 +334,13 @@ textarea {
 }
 
   .reviews h2 {
-    margin: 20px 0;
-    line-height: 30px;
+    margin-bottom: 40px;
+    line-height: 1;
 }
 
   .reviews h3 {
     width: 55%;
+    margin: 20px 0;
 }
 
   .reviews figure {
@@ -348,12 +350,6 @@ textarea {
 
   .reviews img {
     width: 100%;
-}
-
-  .reviews article {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
 }
 
 
@@ -512,7 +508,7 @@ textarea {
 
     h3 {
       font-size: 1.5em;
-      line-height: 1.875rem;
+      line-height: 1.25;
     }
 
     .footer h4 {
@@ -520,7 +516,7 @@ textarea {
     }
 
     footer p {
-      line-height: 1.125em;
+      line-height: 1.285;
     }
 
     .faq h4, .faq p {
@@ -528,19 +524,16 @@ textarea {
       line-height: .984em;
     }
   
-    .contact h4 {
+    footer h4 {
       font-size: 1.5em;
+      margin-bottom: 40px;
     }
 
-    .social h4 {
-      font-size: 1.5em;
-    }
   
     /*--Header--*/
 
     header .content-wrapper {
       width: 100%;
-      display: flex;
       justify-content: space-between;
   }
 
@@ -571,11 +564,13 @@ textarea {
 }
 
   .hero-area  {
-    height: 600px;
+    min-height: 600px;
 }
 
   .hero-area h1 {
     margin: 0;
+    line-height: 1;
+    font-size: 3em;
 }
   aside .content-wrapper {
     margin: 50px 0;
@@ -613,12 +608,21 @@ textarea {
   .reviews article {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
 }
 
-  .reviews figure {
-    text-align: left;
+  .reviews h2 {
+    width: 85%;
 }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+}
+
+  .reviews article figure, .reviews article div {
+  width: 49%;
+}
+
 
   .reviews img {
     width: 100%;
@@ -628,7 +632,12 @@ textarea {
     width: 65%;
 }
 
-  .footer-content {
+  footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -636,18 +645,11 @@ textarea {
 }
 
   footer .contact{
-    margin: 0;
-    padding-bottom: 40px;
-}
-
-  footer .social{
-    margin: 0;
-    padding-bottom: 40px;
+    margin-bottom: 0;
 }
 
   footer .copyright {
     width: 100%;
-    font-weight: 700;
 }
 /*--------About Page-------*/
     .mission-content {
@@ -682,27 +684,31 @@ textarea {
 
   @media only screen and (min-width: 1200px) {
     /*desktop styles here*/
-    header {
-      padding: 15px 0;
-    }
-
     .content-wrapper {
       max-width: 960px;
     }
 
-    h1 {
-      font-size: 60px;
+    header {
+      padding: 15px 0;
     }
 
-    h3 {
-      font-size: 30px;
+    header figure {
+      width: 30%;
+    }
+
+    header nav {
+      width: 20%;
+    }
+
+    h1 {
+      font-size: 70px;
     }
     
     h2 {
       font-size: 36px;
     }
 
-    h4 {
+    h3, h4 {
       font-size: 30px;
     }
 
@@ -712,8 +718,9 @@ textarea {
     }
 
     .hero-area h1 {
+      font-size: 3.75em;
       width: 80%;
-    }
+}
 
     aside .content-wrapper {
       justify-content: space-around;
@@ -725,7 +732,7 @@ textarea {
    }
 
    .features h2 {
-     width: 90%;
+     width: 95%;
    }
 
    .features article {
@@ -733,13 +740,23 @@ textarea {
    }
 
    .reviews article div {
-    width: 42%;
+    flex-basis: 42%;
+   }
+
+   .reviews h2 {
+    width: 75%;
+    padding-bottom: 50px;
    }
 
    img {
     width: 100%;
    }
 
+   footer .copyright {
+    padding-top: 50px;
+    font-weight: 600;
+   }
+    /*-----------Mission----------*/
    .mission h2, .contact-section .content-wrapper h2 {
     width: 95%;
    }
@@ -748,10 +765,12 @@ textarea {
     font-size: 48px;
    }
 
+   /*---------About----------*/
    .about h2 {
     font-size: 48px;
    }
 
+   /*---------FAQ----------*/
    .faq h2 {
     width: 100%;
     font-size: 48px;
