@@ -160,7 +160,6 @@ textarea {
   header figure {
     width: 60%;
     margin: 0;
-    padding: 15px 0 10px 0;
 }
 
   header img {
@@ -235,9 +234,6 @@ textarea {
   footer .copyright {
     margin: 20px 0;
 }
-  address {
-    font-style: normal;
-}
 /*--------Hero Area and Aside---------*/
   .hero-area {
     display: flex;
@@ -246,7 +242,6 @@ textarea {
     background-size: cover;
     background-position: center; 
     min-height: 500px;
-    padding: 50px 0;
 }
 
   .hero-area h1 {
@@ -258,10 +253,6 @@ textarea {
     display: flex;
     justify-content: center;
     background-color: #527158;
-}
-
-  aside .form {
-    margin-top: 30px;
 }
    
   input[type=text] {
@@ -556,7 +547,6 @@ textarea {
 
   header figure {
     width: 30%;
-    text-align: left;
 }
 
   header img {
@@ -641,7 +631,6 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row wrap;
 }
 
   footer .contact{
@@ -692,10 +681,6 @@ textarea {
       padding: 15px 0;
     }
 
-    header figure {
-      width: 30%;
-    }
-
     header nav {
       width: 20%;
     }
@@ -726,12 +711,11 @@ textarea {
       justify-content: space-around;
     }
 
-    aside .content-wrapper .form-descripton,
+    aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-     width: 30%;
-   }
-
-   .features h2 {
+    width: 30%;
+  }
+    .features h2 {
      width: 95%;
    }
 
@@ -752,10 +736,9 @@ textarea {
     width: 100%;
    }
 
-   footer .copyright {
-    padding-top: 50px;
-    font-weight: 600;
-   }
+   footer h4 {
+    font-size: 1.875em;
+  }
     /*-----------Mission----------*/
    .mission h2, .contact-section .content-wrapper h2 {
     width: 95%;
