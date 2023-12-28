@@ -119,6 +119,7 @@ textarea {
 
   h2 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 1.875em;
 }
  
@@ -138,12 +139,6 @@ textarea {
   address {
     font-style: normal;
 }
-
-  .faq h2 {
-    margin-bottom: 40px;
-    line-height: 1;
-}
-
   .content-wrapper {
     width: 90%;
     margin: 50px 0;
@@ -169,9 +164,8 @@ textarea {
   header nav{
     width: 60%;
     font-size: 1.125em;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 20px 0 15px;
 }
     
   .header-divider{
@@ -346,7 +340,7 @@ textarea {
 
 /*-----------About Page---------*/
   
-.contact-content p {
+  .contact-content p {
     margin: 0;
 }
   
@@ -369,8 +363,8 @@ textarea {
 }
 
   .faq h2 {
-    margin: 40px;
-    line-height: 30px;
+    margin-bottom: 40px;
+    line-height: 1;
 }
 
   .faq-content {
@@ -386,7 +380,7 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     align-items: flex-start;
-    margin-top: 50px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 
@@ -512,7 +506,7 @@ textarea {
 
     .faq h4, .faq p {
       font-size: .875em;
-      line-height: .984em;
+      line-height: 1.125;
     }
   
     footer h4 {
@@ -537,11 +531,10 @@ textarea {
   }
 
     header nav {
-      width: 21%;
+      width: 20%;
   }
 
     header nav ul {
-      display: flex;
       justify-content: space-between;
   }
 
@@ -631,6 +624,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
   footer .contact{
@@ -658,6 +652,10 @@ textarea {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+    }
+
+    .contact-content h4 {
+      font-size: 1.5em;
     }
     /*-----FAQ Page------*/
     .faq .content-wrapper{
@@ -742,10 +740,15 @@ textarea {
     /*-----------Mission----------*/
    .mission h2, .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
    }
 
    .mission h2 {
     font-size: 48px;
+   }
+
+   .contact-content h4 {
+    font-size: 1.875em;
    }
 
    /*---------About----------*/
