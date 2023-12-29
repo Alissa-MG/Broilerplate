@@ -303,9 +303,9 @@ textarea {
     padding: 0 0 30px 0;
   }
 
-  .features .fontawesome-icons {
-    font-size: 60px;
-    padding-bottom: 40px;
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
   .features .social-icons {
