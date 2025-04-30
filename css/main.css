@@ -259,7 +259,7 @@ textarea {
     margin-bottom: 20px;
 }
    
-  input[type=button] {
+  #download-btn {
     width: 100%;
     padding: 20px 0;
     margin-top: 20px;
@@ -271,6 +271,40 @@ textarea {
     border: none;
     text-align: center;
     text-transform: uppercase;
+    position: relative;
+    z-index: 9999;
+    pointer-events: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#download-btn:hover {
+  background-color: #1b4f72;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: #2a432a;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 80%;
+}
+
+.hidden {
+  display: none;
 }
 
 /*---------Features Area-----------*/

@@ -72,7 +72,7 @@
         <div class="form">
           <h3>Find out more!</h3>
           <input type="text" name="name" value="name@email.com">
-          <input type="button" id="download-btn" value="Download Itinerary">
+          <button id="download-btn">Download Itinerary</button>
         </div>
       </div>
     </aside>
@@ -192,6 +192,12 @@
     
   </footer>
 
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <p>Thanks! Your itinerary will be downloaded soon.</p>
+      <button id="close-popup">Close</button>
+    </div>
+  </div>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
